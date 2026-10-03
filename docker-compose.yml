@@ -1,0 +1,9 @@
+name: local_irns_lint
+
+services:
+  code:
+    container_name: local_irns_lint_code
+    image: node:26
+    command: sleep infinity
+    volumes:
+      - .:/code
