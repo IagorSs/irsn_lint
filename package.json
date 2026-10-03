@@ -1,0 +1,23 @@
+{
+  "name": "@irsn/lint",
+  "version": "0.0.0",
+  "description": "The way that I format the code.",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "docker:up": "docker compose up -d --wait",
+    "docker:down": "docker compose down",
+    "docker:bash": "docker exec -it local_irns_lint_code bash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IagorSs/irsn_lint.git"
+  },
+  "keywords": ["lint", "eslint"],
+  "author": "Iagor Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IagorSs/irsn_lint/issues"
+  },
+  "homepage": "https://github.com/IagorSs/irsn_lint#readme"
+}
